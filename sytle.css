@@ -1,5 +1,5 @@
 body {
-    background-image: url(https://web.archive.org/web/20090520212314/http://de.geocities.com/cyberseverino2000/pessoa/500.gif);
+    background-image: url(500.gif);
     background-size: cover; /* Ensures the image covers the entire viewport */
     background-repeat: no-repeat; /* Prevents tiling */
     background-attachment: fixed; /* Keeps the image fixed while scrolling */
