@@ -1,13 +1,15 @@
 body {
-    background-color: #343131;
+    background-image: url(https://web.archive.org/web/20090520212314/http://de.geocities.com/cyberseverino2000/pessoa/500.gif);
+    background-size: cover; /* Ensures the image covers the entire viewport */
+    background-repeat: no-repeat; /* Prevents tiling */
+    background-attachment: fixed; /* Keeps the image fixed while scrolling */
+    background-position: center;
 }
 
 h1 {
     text-align: center;
     color: #A04747;
     font-family: Sans-serif;
-    border-style: solid;
-    border-radius: 5px;
 }
 
 h2 {
@@ -16,7 +18,7 @@ h2 {
     font-family: sans-serif;
 }
 
-p1 {
+p {
     color: #343131;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -25,11 +27,11 @@ p1 {
     display: flex;
     justify-content: left;
     align-items: left;
-    height: 300px;
+    height: 00px;
 }
 
 .flex-box {
-    width: 400px;
+    width: 600px;
     height: 200px;
     border: 2px solid #A04747;
     background-color: #D8A25E;
@@ -45,10 +47,11 @@ p1 {
 }
 
 .flex-box2 {
-    width: 400px;
+    width: 600px;
     height: 200px;
     border: 2px solid #A04747;
     background-color: #D8A25E;
     padding: 15px;
     color: white;
 }
+
