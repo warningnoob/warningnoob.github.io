@@ -23,13 +23,29 @@ p1 {
 
 .flex-container {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: left;
+    align-items: left;
     height: 300px;
 }
 
 .flex-box {
-    width: 500px;
+    width: 400px;
+    height: 200px;
+    border: 2px solid #A04747;
+    background-color: #D8A25E;
+    padding: 15px;
+    color: white;
+}
+
+.flex-container2 {
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    height: 300px;
+}
+
+.flex-box2 {
+    width: 400px;
     height: 200px;
     border: 2px solid #A04747;
     background-color: #D8A25E;
